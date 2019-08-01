@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <title>Box Press</title>
+    </head>
+    <!--[if IE 6 ]><body class="ie6 old_ie"><![endif]-->
+    <!--[if IE 7 ]><body class="ie7 old_ie"><![endif]-->
+    <!--[if IE 8 ]><body class="ie8"><![endif]-->
+    <!--[if IE 9 ]><body class="ie9"><![endif]-->
+    <!--[if !IE]><!--><body><!--<![endif]-->
+		<header>
+			<h1><a href="index.html">Box Press</a><span id="version">v1</span></h1>
+			<nav>
+				<ul>
+					<li><a href="index.html" class="current">Home</a></li>
+					<li><a href="#">News</a></li>
+					<li><a href="#">Gallery</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="adbanner">
+			<div id="ad">
+				<a href="#"><p>Advertise Here</p></a>
+			</div>
+		</div>
+		<div id="secwrapper">
+			<section>
+				<article id="featured">
+					<a href="#"><img src="images/1.jpg" alt=""/></a>
+					<img src="images/featured.png" alt="" id="featuredico"/>
+					<h1>Varius Gravida Mi Volutpat</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor, tortor at vulputate blandit, magna risus posuere turpis, nec cursus ipsum arcu nec felis. Mauris sed lectus dui. Suspendisse enim elit, tempor ac ullamcorper et, eleifend quis sem. Sed euismod sagittis ligula, a imperdiet sapien molestie nec. Curabitur ut eros a justo fermentum vulputate ac sit amet metus.</p>
+					<a href="#" class="readmore">Read more</a>
+				</article>
+				<article>
+					<a href="#"><img src="images/2.jpg" alt=""/></a>
+					<h1>Tortor at Vulputate Blandit</h1>
+					<p> Aenean quis dignissim diam. Etiam venenatis congue velit, varius gravida mi volutpat ac. Sed ut pretium dolor. Etiam tempor felis ac eros dictum quis consectetur dolor tristique. Aliquam scelerisque, odio vel luctus commodo, nisl nisl vehicula metus, ut lobortis eros sem blandit est.</p>
+					<a href="#" class="readmore">Read more</a>
+				</article>
+				<article class="rightcl">
+					<a href="#"><img src="images/3.jpg" alt=""/></a>
+					<h1>Curabitur ut Eros a Justo Fermentum Vulputate</h1>
+					<p>Etiam tempor felis ac eros dictum quis consectetur dolor tristique. Aliquam scelerisque, odio vel luctus commodo, nisl nisl vehicula metus, ut lobortis eros sem blandit est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor, tortor at vulputate blandit, magna risus posuere turpis.</p>
+					<a href="#" class="readmore">Read more</a>
+				</article>			
+				<article id="photobox">
+					<h1>Photos Box</h1>
+					<img src="images/pbs1.jpg" alt="" /><img src="images/pbs2.jpg" alt="" /><img src="images/pbs3.jpg" alt="" />
+					<img src="images/pbs4.jpg" alt="" /><img src="images/pbs5.jpg" alt="" /><img src="images/pbs6.jpg" alt="" />
+					<img src="images/pbs7.jpg" alt="" />
+				</article>
+				<article>
+					<a href="#"><img src="images/4.jpg" alt=""/></a>
+					<h1>Fermentum Vulputate Ac Sit Amet Metus</h1>
+					<p>Mauris sed lectus dui. Suspendisse enim elit, tempor ac ullamcorper et, eleifend quis sem. Sed euismod sagittis ligula, a imperdiet sapien molestie nec. Curabitur ut eros a justo fermentum vulputate ac sit amet metus. Aenean quis dignissim diam.</p>
+					<a href="#" class="readmore">Read more</a>
+				</article>
+				<article id="sponsors">
+					<h1>Sponsors</h1>
+					<a href="#"><p>Advertise here</p></a><a href="#"><p>Advertise here</p></a><a href="#"><p>Advertise here</p></a><a href="#"><p>Advertise here</p></a>
+				</article>
+				<article>
+					<a href="#"><img src="images/5.jpg" alt=""/></a>
+					<h1>Aenean Quis Dignissim Diam</h1>
+					<p>Vulputate ac sit aenean quis dignissim diam. Etiam venenatis congue velit, varius gravida mi volutpat ac. Sed ut pretium dolor. Etiam tempor felis ac eros dictum quis consectetur dolor tristique. Aliquam scelerisque, odio vel luctus commodo, nisl nisl vehicula metus, ut lobortis eros sem blandit est.</p>
+					<a href="#" class="readmore">Read more</a>
+				</article>
+			</section>
+		</div>
+		<!-- component_start --> <div style="z-index: 1;"> <div id="minarai-icon-circle" class="minarai-icon-circle" onClick="minaraiOnIconClick(event);"></div> <div id="minarai-chat-container"> <div id="minarai-chat-header" class="minarai-chat-header"> <div class="minarai-chat-css-export" title="新しいタブで開く" onclick="openNewTab(event)"></div> <div id="minarai-on-hide-content" onClick="minaraiOnHideClick()"> <div id="minarai-hide-button"></div> </div> </div> <div id="minarai-chat-iframe-container"> <iframe id="minarai-chat-iframe">LOADING</iframe> </div> </div> </div> <script type="text/javascript"> var MINARAI_CHATBOT_URL = 'https://qa-cs-chat-application.minarai.ch/front/?aid=89d423ac-3777-4b2c-b25d-7cd0f70f9c84&color_theme=orangeBlueTheme&credit=on'; function toggleMinaraiChatBox() { var element = document.getElementById('minarai-chat-iframe'); var classname = element.getAttribute('class'); var srcPath = element.getAttribute('src'); if (classname) { element.removeAttribute('class'); if (!srcPath || srcPath.length <= 0) { element.setAttribute('src', MINARAI_CHATBOT_URL); } } else { element.setAttribute('class', 'closed'); } } function minaraiShowChat(){ toggleMinaraiChatBox(); var container = document.querySelector("#minarai-chat-container"); container.classList.toggle('opend'); var button = document.querySelector("#minarai-icon-circle"); button.classList.toggle('invisible'); } function isMobileDevice() { return /Android|webOS|iPhone|iPad|iPod|Opera Mini/i.test(navigator.userAgent); } /** **/ function minaraiOnIconClick(e){ if(isMobileDevice()){ openNewTab(e); } else { minaraiShowChat(); } } function minaraiOnHideClick(){ minaraiShowChat(); } function onLoad() { var boxElement = document.getElementById('minarai-chat-container'); var boxTransition = boxElement.style.transition; boxElement.style.transition = 'none'; function popUpBox() { var frameElement = document.getElementById('minarai-chat-iframe'); var boxClassname = boxElement.getAttribute('class'); if (boxClassname) { var frameClassname = frameElement.getAttribute('class'); if (frameClassname) { toggleMinaraiChatBox(); } } else { boxElement.setAttribute('class', 'visible'); frameElement.setAttribute('class', 'closed'); } } function loadCSS() { var css=document.createElement("link"); var timestamp = Date.now(); css.setAttribute("rel","stylesheet"); css.setAttribute("type","text/css"); css.setAttribute("href","https://minarai-cschat.s3-ap-northeast-1.amazonaws.com/assets/css/chat_launcher.css?" + timestamp); document.getElementsByTagName("head")[0].appendChild(css); window.setTimeout( function () {boxElement.style.transition = boxTransition;}, 300); } loadCSS(); window.addEventListener('load', function() { popUpBox(); }); } function openNewTab(e) { e.preventDefault(); e.stopPropagation(); window.open(MINARAI_CHATBOT_URL, '_blank', 'noopener, scrollbars, toolbar, resizable'); } (function() { onLoad(); })(); </script> <!--component_end-->
+		<footer>
+			<p>Copyright &copy 2012 BoxPress by Youssef Nassim. All Rights Reserved.</p>
+		</footer>
+	</body>
+</html>
+		
+		
+			
+    
+    
